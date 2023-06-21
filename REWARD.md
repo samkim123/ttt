@@ -124,7 +124,7 @@ public class RewardInterstitialVideoActivity extends AppCompatActivity {
 
 |                                                              파트너 사이트                                                               |
 |:----------------------------------------------------------------------------------------------------------------------------------:|
-| <img src="https://github.com/samkim123/ttt/blob/master/settings.png"  width="60%" height="60%"/> |
+| <img src="https://github.com/samkim123/ttt/blob/master/settings.png"  width="80%" height="80%"/> |
 
 
 ### 기본 파라미터
