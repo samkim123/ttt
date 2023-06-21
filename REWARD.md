@@ -2,7 +2,7 @@
 
 |                                                        리워드 비디오 예시                                                         | EndCard 예시
 |:-------------------------------------------------------------------------------------------------------------------------:|:---:|
-| <img src="https://github.com/samkim123/ttt/blob/master/reward.jpg"  width="40%" height="40%"/> |<img src="https://github.com/samkim123/ttt/blob/master/reward_endcard.jpg"  width="40%" height="40%"/>
+| <img src="https://github.com/samkim123/ttt/blob/master/reward_endcar.jpg"  width="40%" height="40%"/> |<img src="https://github.com/samkim123/ttt/blob/master/rewardd.jpg"  width="40%" height="40%"/>
 
 
 ## 1. Reward Interstitial Video (리워드 전면비디오) 추가 예제
