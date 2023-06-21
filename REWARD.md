@@ -11,11 +11,11 @@
   (2) 리워드 전면비디오 광고 요청 후 받은 뒤, 원하는 시점에 노출
 - 리워드 전면비디오 광고 요청 후 받은 뒤, 원하는 시점에 노출을 시   
   (1) rewardInterstitialVideoAd.loadRewardVideoAd(); 호출   
-  (2) onReceivedAd 이벤트를 받은 뒤, 원하는 시점에 if(rewardInterstitialVideoAd.hasInterstitial) // 리워드 전면비디오 광고를 성공적으로 받았는지 판단.   
-  (3) rewardInterstitialVideoAd.showRewardVideoAd(); // 리워드 전면비디오 광고 노출    
- - 유의사항
-   - 광고 로딩이 성공한 이후 노출하지 않고 지나치게 많은 시간이 지나가면 showRewardVideoAd() 을 호출 했을 때, 제대로 광고가 표시되지 않을 수 있습니다.
-   - loadRewardVideoAd() 을 호출하고 일정 시간이 지나면 광고가 노출되어도 유효 노출로 처리되지 않을 수 있습니다.
+  (2) onReceivedAd 이벤트를 받은 뒤, 원하는 시점에 rewardInterstitialVideoAd.hasInterstitial으로 리워드 전면비디오 광고를 성공적으로 받았는지 판단.   
+  (3) rewardInterstitialVideoAd.showRewardVideoAd(); // 리워드 전면비디오 광고 노출
+- 유의사항
+    - 광고 로딩이 성공한 이후 노출하지 않고 지나치게 많은 시간이 지나가면 showRewardVideoAd() 을 호출 했을 때, 제대로 광고가 표시되지 않을 수 있습니다.
+    - loadRewardVideoAd() 을 호출하고 일정 시간이 지나면 광고가 노출되어도 유효 노출로 처리되지 않을 수 있습니다.
 
 - 아래 코드 및 샘플 프로젝트를 참조하여 원하는 방법으로 광고를 추가 해 주세요
 ```java
@@ -166,5 +166,5 @@ public class RewardInterstitialVideoActivity extends AppCompatActivity {
 ###### SDK 내 CustomData 추가에서 세팅한 Custom파라미터가 콜백 URL에 포함되어 전송됩니다. (아래 예제 URL 참조)
 
 
-| {매체사콜백url}?media_key={mediakey}&adunit_id={adunitid}&adid={adid}&user_id={user_id}&complete={complete}&timestamp={timestamp}&useid=nas&name=choi&phone=010-1111-1111 |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| {매체사콜백url}?media_key={mediakey}&adunit_id={adunitid}&adid={adid}&user_id={user_id}&complete={complete}&timestamp={timestamp}<u>&useid=nas&name=choi&phone=010-1111-1111</u> |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
