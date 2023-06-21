@@ -10,7 +10,7 @@
   (1) 리워드 전면비디오 광고 요청 후 받은 즉시 노출   
   (2) 리워드 전면비디오 광고 요청 후 받은 뒤, 원하는 시점에 노출
 - 리워드 전면비디오 광고 요청 후 받은 뒤, 원하는 시점에 노출을 시   
-  (1) rewardInterstitialVideoAd.loadRewardVideoAd(); 호출   
+  (1) rewardInterstitialVideoAd.loadRewardVideoAd(); 로드요청   
   (2) onReceivedAd 이벤트를 받은 뒤, 원하는 시점에 rewardInterstitialVideoAd.hasInterstitial으로 리워드 전면비디오 광고를 성공적으로 받았는지 판단.   
   (3) rewardInterstitialVideoAd.showRewardVideoAd(); // 리워드 전면비디오 광고 노출
 - 유의사항
