@@ -5,7 +5,7 @@
 | <img src="https://github.com/samkim123/ttt/blob/master/reward_endcard.jpg"  width="40%" height="40%"/> |<img src="https://github.com/samkim123/ttt/blob/master/reward.jpg"  width="40%" height="40%"/>
 
 
-## 1. Reward Interstitial Video (리워드 전면비디오) 추가 예제
+## Reward Interstitial Video (리워드 전면비디오) 추가 예제
 - Reward Interstitial Video 광고 뷰는 2가지 방법으로 사용 할 수 있습니다.     
   (1) 리워드 전면비디오 광고 요청 후 받은 즉시 노출   
   (2) 리워드 전면비디오 광고 요청 후 받은 뒤, 원하는 시점에 노출
