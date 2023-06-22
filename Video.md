@@ -1,6 +1,6 @@
 ## 동영상(Video) 광고 시작하기
 
-|                                                 비디오 예시                                                 | 비디오 예시
+|                                                 비디오1 예시                                                 | 비디오2 예시
 |:------------------------------------------------------------------------------------------------------:|:---:|
 | <img src="https://github.com/samkim123/ttt/blob/master/video.jpg"  width="100%" height="100%"/> |<img src="https://github.com/samkim123/ttt/blob/master/video2.jpg"  width="100%" height="100%"/>
 
@@ -143,7 +143,7 @@ public class VideoActivity extends AppCompatActivity {
 ```
 
 ## 전면 비디오 (Interstitial Video) 광고 시작하기
-|                                                 전면비디오 예시                                                 | 전면비디오 예시
+|                                                 전면비디오1 예시                                                 | 전면비디오2 예시
 |:------------------------------------------------------------------------------------------------------:|:---:|
 | <img src="https://github.com/samkim123/ttt/blob/master/interstitial_video.jpg"  width="60%" height="60%"/> |<img src="https://github.com/samkim123/ttt/blob/master/interstitial_video_end.jpg"  width="60%" height="60%"/>
 - Interstitial Video 광고 뷰는 아래와 같이 사용 할 수 있습니다.
