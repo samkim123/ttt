@@ -1,6 +1,6 @@
 ## 동영상(Video) 광고 시작하기
 
-|                                                 비디오 예시                                                 | 전면비디오 예시
+|                                                 비디오 예시                                                 | 비디오 예시
 |:------------------------------------------------------------------------------------------------------:|:---:|
 | <img src="https://github.com/samkim123/ttt/blob/master/video.jpg"  width="100%" height="100%"/> |<img src="https://github.com/samkim123/ttt/blob/master/video2.jpg"  width="100%" height="100%"/>
 
