@@ -2,7 +2,7 @@
 
 |                                                 비디오 예시                                                 | 전면비디오 예시
 |:------------------------------------------------------------------------------------------------------:|:---:|
-| <img src="https://github.com/samkim123/ttt/blob/master/video.jpg"  width="40%" height="40%"/> |<img src="https://github.com/samkim123/ttt/blob/master/Screenshot_20230620-144622_AdMixerSDKTest.jpg"  width="40%" height="40%"/>
+| <img src="https://github.com/samkim123/ttt/blob/master/video.jpg"  width="60%" height="60%"/> |<img src="https://github.com/samkim123/ttt/blob/master/Screenshot_20230620-144622_AdMixerSDKTest.jpg"  width="40%" height="40%"/>
 
 ## 1. Video 광고 추가 예제
 - 아래 코드는 Video 광고 받은 뒤, VideoAdView를 RelativeLayout에 추가한(addView) 예제 입니다.
