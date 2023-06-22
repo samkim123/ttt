@@ -4,7 +4,6 @@
 |:------------------------------------------------------------------------------------------------------:|:---:|
 | <img src="https://github.com/samkim123/ttt/blob/master/video.jpg"  width="100%" height="100%"/> |<img src="https://github.com/samkim123/ttt/blob/master/video2.jpg"  width="100%" height="100%"/>
 
-## 1. Video 광고 추가 예제
 - 아래 코드는 Video 광고 받은 뒤, VideoAdView를 RelativeLayout에 추가한(addView) 예제 입니다.
 - 배너 광고 요청 후 받은 뒤, 원하는 시점에 노출   
    (1) videoAdView.loadAd(); 로드요청   
@@ -142,11 +141,11 @@ public class VideoActivity extends AppCompatActivity {
     }
 }
 ```
+
 ## 전면 비디오 (Interstitial Video) 광고 시작하기
 |                                                 전면비디오 예시                                                 | 전면비디오 예시
 |:------------------------------------------------------------------------------------------------------:|:---:|
 | <img src="https://github.com/samkim123/ttt/blob/master/interstitial_video.jpg"  width="60%" height="60%"/> |<img src="https://github.com/samkim123/ttt/blob/master/interstitial_video_end.jpg"  width="60%" height="60%"/>
-## 2. Interstitial Video (전면 비디오 광고) 추가 예제
 - Interstitial Video 광고 뷰는 아래와 같이 사용 할 수 있습니다.
 - 전면 비디오 광고 요청 후 받은 뒤, 원하는 시점에 노출을 원할 시   
   (1) interstitialVideoAdView.loadInterstitialVideoAd(); 후    
