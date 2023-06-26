@@ -5,10 +5,10 @@
 | <img src="https://github.com/samkim123/ttt/blob/master/video.jpg"  width="100%" height="100%"/> |<img src="https://github.com/samkim123/ttt/blob/master/video2.jpg"  width="100%" height="100%"/>
 
 - 아래 코드는 Video 광고 받은 뒤, VideoAdView를 RelativeLayout에 추가한(addView) 예제 입니다.
-- 배너 광고 요청 후 받은 뒤, 원하는 시점에 노출   
+- 비디오 광고 요청 후 받은 뒤, 원하는 시점에 노출   
    (1) videoAdView.loadAd(); 로드요청   
-   (2) container.removeView(videoAdView); // 기존에 있으면 배너 광고 뷰가 있으면 제거   
-   (3) container.addView(videoAdView, params);   // 레이아웃에 배너 광고 뷰를 추가   
+   (2) container.removeView(videoAdView); // 기존에 있으면 비디오 광고 뷰가 있으면 제거   
+   (3) container.addView(videoAdView, params);   // 레이아웃에 비디오 광고 뷰를 추가   
    (4) video 광고 노출
  - 유의사항
    - 광고 로딩이 성공한 이후 노출하지 않고 지나치게 많은 시간이 지나가면 addView() 을 호출 했을 때, 제대로 광고가 표시되지 않을 수 있습니다.
