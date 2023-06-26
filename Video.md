@@ -65,7 +65,7 @@ public class VideoActivity extends AppCompatActivity {
         container = findViewById(R.id.container_video);
         tvComplete = findViewById(R.id.tv_complete);
 
-        AdInfo adInfo = new AdInfo.Builder(Application.adUnitId_video) // AdMixer 플랫폼에서 발급받은 배너 ADUNIT_ID
+        AdInfo adInfo = new AdInfo.Builder(Application.adUnitId_video) // AdMixer 플랫폼에서 발급받은 비디오 광고 ADUNIT_ID
                 .isRetry(true) // 광고 재요청 설정 (true - 기본값), false 시, 1회 요청 후 바로 Callback
                 .build();
 
